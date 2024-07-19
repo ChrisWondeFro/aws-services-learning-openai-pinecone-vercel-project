@@ -1,18 +1,19 @@
-export const urls = [{
-  url: "https://e360.yale.edu/digest/indonesia-malaysia-deforestation",
-  title: "Indonesia Deforestation",
+export const urls = [
+{
+  url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+  title: "What is Amazon EC2",
   seeded: false,
   loading: false,
 },
 {
-  url: "https://cleantechnica.com/2023/06/29/solar-82-of-power-capacity-growth-in-india-in-2022/",
-  title: "Solar Power in India",
+  url: "https://docs.aws.amazon.com/ec2/latest/devguide/ec2-api-intro.html",
+  title: "Programmatic access to Amazon EC2",
   seeded: false,
   loading: false,
 },
 {
-  url: "https://www.cbssports.com/nba/news/matisse-thybulle-to-stay-with-blazers-who-match-mavericks-three-year-33-million-deal-per-report/",
-  title: "Matisee Thybulle",
+  url: "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
+  title: "AWS Latest Glossary",
   seeded: false,
   loading: false,
-}]
+},]
