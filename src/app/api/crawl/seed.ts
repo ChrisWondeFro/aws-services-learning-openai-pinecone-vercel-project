@@ -38,7 +38,9 @@ async function seed(url: string, limit: number, indexName: string, cloudName: Se
     // Create Pinecone index if it does not exist
     const indexList: string[] = (await pinecone.listIndexes())?.indexes?.map(index => index.name) || [];
     const indexExists = indexList.includes(indexName);
+    console.log(`Index exists: ${indexExists}`);
     if (!indexExists) {
+      console.log(`Creating index: ${indexName}`);
       await pinecone.createIndex({
         name: indexName,
         dimension: 1536,
@@ -72,6 +74,10 @@ async function embedDocument(doc: Document): Promise<PineconeRecord> {
   try {
     // Generate OpenAI embeddings for the document content
     const embedding = await getEmbeddings(doc.pageContent);
+
+    if (!embedding || embedding.length === 0) {
+      throw new Error('Embedding API returned empty or undefined response');
+    }
 
     // Create a hash of the document content
     const hash = md5(doc.pageContent);
