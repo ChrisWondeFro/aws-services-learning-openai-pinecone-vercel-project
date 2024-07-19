@@ -30,12 +30,6 @@ export const urls = [
   loading: false,
 },
 {
-  url: "https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/welcome.html?did=wp_card&trk=wp_card",
-  title: "Building a Scalable and Secure Multi-VPC AWS Network Infrastructure",
-  seeded: false,
-  loading: false,
-},
-{
   url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
   title: "What is Amazon EC2",
   seeded: false,
