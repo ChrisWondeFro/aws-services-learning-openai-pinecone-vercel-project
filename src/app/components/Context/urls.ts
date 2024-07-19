@@ -40,10 +40,4 @@ export const urls = [
   title: "Programmatic access to Amazon EC2",
   seeded: false,
   loading: false,
-},
-{
-  url: "https://docs.aws.amazon.com/glossary/latest/reference/glos-chap.html",
-  title: "AWS Latest Glossary",
-  seeded: false,
-  loading: false,
 },]
