@@ -23,7 +23,7 @@ const Chat: React.FC<Chat> = ({
       <>
         <form
           onSubmit={handleMessageSubmit}
-          className="mt-5 mb-5 relative bg-gray-700 rounded-lg"
+          className="mt-5 mb-5 relative bg-gray-700 rounded-lg left-1 "
         >
           <input
             type="text"
@@ -32,7 +32,7 @@ const Chat: React.FC<Chat> = ({
             onChange={handleInputChange}
           />
 
-          <span className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-gray-400">
+          <span className="absolute inset-y-0 right-0 flex items-center pr-3 left-3 pointer-events-none text-gray-400">
             Press ⮐ to send
           </span>
         </form>
