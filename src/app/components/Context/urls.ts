@@ -1,13 +1,19 @@
 export const urls = [
 {
+  url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html",
+  title: "AWS Analytics",
+  seeded: false,
+  loading: false,
+},
+{
   url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
   title: "AWS Compute services",
   seeded: false,
   loading: false,
 },
 {
-  url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html",
-  title: "AWS Analytics",
+  url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/management-governance.html",
+  title: "AWS Management and governance",
   seeded: false,
   loading: false,
 },
@@ -20,12 +26,6 @@ export const urls = [
 {
   url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-services.html",
   title: "AWS Security, identity, and compliance",
-  seeded: false,
-  loading: false,
-},
-{
-  url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/management-governance.html",
-  title: "AWS Management and governance",
   seeded: false,
   loading: false,
 },
