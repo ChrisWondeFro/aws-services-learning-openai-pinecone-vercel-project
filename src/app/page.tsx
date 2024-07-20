@@ -13,6 +13,7 @@ import { AiFillGithub, AiOutlineInfoCircle } from "react-icons/ai";
 import Image from "next/image";
 import PineconeLogo from "public/pinecone.svg";
 import VercelLogo from "public/vercel.svg";
+import OpenAILogo from "public/openai.svg";
 
 
 const Page: React.FC = () => {
@@ -61,19 +62,27 @@ const Page: React.FC = () => {
       >
         <Image
         src={PineconeLogo}
-        alt="aws-logo"
-        width="230"
+        alt="pinecone-logo"
+        width="80"
         height="50"
-        className="ml-3"
+        className="mr-3"
       />{" "}
       <div className="text-4xl ml-3 mr-3">+</div>
       <Image
+        src={OpenAILogo}
+        alt="openai-logo"
+        width="30"
+        height="10"
+        className="mr-3 mt-1 ml-2"
+      />
+       <div className="text-4xl ml-3 mr-3">+</div>
+      <Image
         src={VercelLogo}
-        alt="perscholas-logo"
-        width="160"
+        alt="vercel-logo"
+        width="60"
         height="50"
         className="mr-3 mt-3"
-      />
+      />{" "}
       </a>
       <button
         onClick={() => {
