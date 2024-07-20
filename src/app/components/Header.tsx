@@ -14,7 +14,7 @@ export default function Header({ className }: { className?: string }) {
         height="50"
         className="mr-3 mb-8"
       />{" "}
-      <div className="text-4xl ml-3 mr-3">+</div>
+      <div className="text-4xl ml-3 mr-3 mb-8">+</div>
       <Image
         src={AWSLogo}
         alt="aws-logo"
