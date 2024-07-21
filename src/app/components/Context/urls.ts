@@ -30,14 +30,16 @@ export const urls = [
   loading: false,
 },
 {
-  url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
-  title: "What is Amazon EC2",
-  seeded: false,
-  loading: false,
-},
-{
   url: "https://docs.aws.amazon.com/ec2/latest/devguide/ec2-api-intro.html",
   title: "Programmatic access to Amazon EC2",
   seeded: false,
   loading: false,
-},]
+},
+{
+  url: "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html",
+  title: "Amazon EC2 instance IP addressing",
+  seeded: false,
+  loading: false,
+},
+
+]
